@@ -8,5 +8,4 @@ while (guess < 5) and (number != rightnumber):
   print("Not right. Try again.")
   number = int(input("Guess a number: "))
   guess = guess + 1
-    if number == rightnumber
-        print("Well done!")
+print("Well done!")
