@@ -10,6 +10,11 @@
 #Create Python code to implement the above problem statement.
 #Save program as Task_A3.
 
+while True:
 
-name = input("What is your name?")
-house = input("What school house are you in?")
+    name = input("What is your name?")
+    house = input("What school house are you in?")
+    Houses = ["Stuart","Forbes","Douglas","Gordon"]
+
+    while house == Houses:
+        print

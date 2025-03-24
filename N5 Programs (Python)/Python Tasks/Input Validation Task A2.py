@@ -12,8 +12,6 @@
 
 while True:
 
-    list = []
-
     name = input("What is your name")
 
     age = int(input("What is your age"))
@@ -22,5 +20,4 @@ while True:
         print("Please enter an age between 11 and 18")
         age = input("What is your age")
     
-    list.append(name)
-    print("Hello",list,"Would you like to enter the talant show?") 
+    print("Hello",name,"Would you like to enter the talant show?") 
