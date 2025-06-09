@@ -1,11 +1,17 @@
 #Badges
 
-badges = int(input("How many badges do you want to order"))
+#badges = int(input("How many badges do you want to order"))
 
-if badges < 150:
-	price = (badges*0.25)
+#if badges < 150:
+#	price = (badges*0.25)
 
-else:
-	price = (badges*0.25*0.9)
+#else:
+#	price = (badges*0.25*0.9)
 	
-print("Your total order comes to","£",price)
+#print("Your total order comes to","£",price)
+
+
+
+retypetime = 4400/50
+
+print(retypetime)
