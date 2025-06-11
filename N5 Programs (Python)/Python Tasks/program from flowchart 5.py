@@ -1,0 +1,1 @@
+badgetext = int(input("what is the badge text"))
