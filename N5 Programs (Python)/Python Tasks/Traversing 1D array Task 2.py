@@ -11,9 +11,9 @@ total = 0
 
 for index in range(5):
     food.append(int(input("Enter the dog food weight (between 0g and 300g)")))
-        if food[index] > 0:
+    if food[index] > 0:
             print("Must be between 0g and 300g")
-        elif food[index] < 300:
+    elif food[index] < 300:
             print("Must be between 0g and 300g")
     total = (total+food[index])
 
