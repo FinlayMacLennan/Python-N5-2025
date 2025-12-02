@@ -14,8 +14,10 @@ for i in range(StudentsNo):
     print("Thank you for entering the first 3 letters of the students name")
 
     end = random.choice(endings)
-    username = (name, end)
+    final = name + end
+    username = final
 
     final_usernames.append(username)
 
-print(final_usernames) 
+for i in range(StudentsNo):
+    print(final_usernames[i])
