@@ -1,0 +1,60 @@
+/* Background Colours */
+body{background-color:#98FB98}
+
+/* Text Properties */
+h1 {font-family:Helvetica;
+text-align:center;
+color:white;}
+
+h2 {font-family:Helvetica;
+text-align:left;
+color:Black;}
+
+p, li {font-family:Helvetica;
+text-align:left;
+color:Black;}
+
+a {font-family:Helvetica;
+text-align:left;
+color:Black;}
+
+/* IDs */
+#headingParagraph{font-family:"Georgia",serif;
+text-align:center;
+color:white;}   
+
+#Coo {
+
+    height: 250px;
+    width: 400px;
+}
+
+#spacer {
+
+    color: #A6AFB8;
+}
+
+/* Classes */
+.headingSection {background-color:#005EB8}
+.contentSection {background-color:#ffffff}
+.linksSection {
+    background-color:#ffffff;
+    color: #FFAC1c;
+}
+.bannerImage {width:100%;height:60px}	
+
+
+.alltext {
+
+    font-size: 18pt;
+    color: #DDA0DD;
+    text-align: center;
+}
+
+#sale {
+
+    font-size: 24pt;
+    color: #DDA0DD;
+    text-align: center;
+
+}
